@@ -1,15 +1,14 @@
 ﻿// ///////////////////////////////////////////////////////////
-// Company:............. J.H. Kelly
-// Department:.......... Virtual Design and Construction (VDC)
-// Website:............. http://www.jhkelly.com
+// Company:............. Sheasta Development
+// Website:............. http://www.sheasta.com
 // Solution:............ Progress Bar Test 30
-// Project:............. ProgressBarTest30
+// Project:............. ProgressBar
 // File:................ MainWindowViewModel.cs
-// Last Code Cleanup:... 08/28/2020 @ 3:01 PM Using ReSharper
-// Review Comment:...... // ✓✓ 08/28/2020 - Review Comment:
+// Last Code Cleanup:... 01/18/2021 @ 1:25 PM Using ReSharper
+// Review Comment:...... // ✓✓ 01/18/2021 - Review Comment:
 // ///////////////////////////////////////////////////////////
 
-namespace ProgressBarTest30.ViewModels
+namespace ProgressBar.ViewModels
 {
     using System.Collections.Generic;
     using System.ComponentModel;
@@ -19,8 +18,8 @@ namespace ProgressBarTest30.ViewModels
     using System.Windows;
     using System.Windows.Input;
     using GalaSoft.MvvmLight.CommandWpf;
-    using ProgressBarTest30.Models;
-    using ProgressBarTest30.Properties;
+    using ProgressBar.Models;
+    using ProgressBar.Properties;
     using Telerik.Windows.Controls;
 
     internal class MainWindowViewModel : ViewModelBase

@@ -1,18 +1,17 @@
 ﻿// ///////////////////////////////////////////////////////////
-// Company:............. J.H. Kelly
-// Department:.......... Virtual Design and Construction (VDC)
-// Website:............. http://www.jhkelly.com
+// Company:............. Sheasta Development
+// Website:............. http://www.sheasta.com
 // Solution:............ Progress Bar Test 30
-// Project:............. Progress Bar Test 30
+// Project:............. ProgressBar
 // File:................ MainWindow.xaml.cs
-// Last Code Cleanup:... 08/25/2020 @ 2:20 PM Using ReSharper
-// Review Comment:...... // ✓✓ 08/25/2020 - Review Comment:
+// Last Code Cleanup:... 01/18/2021 @ 1:25 PM Using ReSharper
+// Review Comment:...... // ✓✓ 01/18/2021 - Review Comment:
 // ///////////////////////////////////////////////////////////
 
-namespace ProgressBarTest30.Views
+namespace ProgressBar.Views
 {
     using System.Windows;
-    using ProgressBarTest30.ViewModels;
+    using ProgressBar.ViewModels;
 
     public partial class MainWindow : Window
     {
@@ -22,7 +21,7 @@ namespace ProgressBarTest30.Views
         {
             this.InitializeComponent();
 
-           this.DataContext = new MainWindowViewModel();
+            this.DataContext = new MainWindowViewModel();
         }
 
         #endregion

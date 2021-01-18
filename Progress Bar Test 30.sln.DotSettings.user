@@ -1966,9 +1966,8 @@
   &lt;/TypePattern&gt;&#xD;
 &lt;/Patterns&gt;</s:String>
 	<s:String x:Key="/Default/CodeStyle/FileHeader/FileHeaderText/@EntryValue">///////////////////////////////////////////////////////////&#xD;
-Company:............. J.H. Kelly&#xD;
-Department:.......... Virtual Design and Construction (VDC)&#xD;
-Website:............. http://www.jhkelly.com&#xD;
+Company:............. Sheasta Development&#xD;
+Website:............. http://www.sheasta.com&#xD;
 Solution:............ $SOLUTION$&#xD;
 Project:............. $PROJECT$&#xD;
 File:................ $FILENAME$&#xD;

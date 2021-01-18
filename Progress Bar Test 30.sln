@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarTest30", "Progress Bar Test 30\ProgressBarTest30.csproj", "{1C2E72C0-E42E-4EB5-811F-4E82839003D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBar", "Progress Bar Test 30\ProgressBar.csproj", "{1C2E72C0-E42E-4EB5-811F-4E82839003D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

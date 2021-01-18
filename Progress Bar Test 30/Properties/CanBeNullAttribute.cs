@@ -1,12 +1,11 @@
 ﻿// ///////////////////////////////////////////////////////////
-// Company:............. J.H. Kelly
-// Department:.......... Virtual Design and Construction (VDC)
-// Website:............. http://www.jhkelly.com
+// Company:............. Sheasta Development
+// Website:............. http://www.sheasta.com
 // Solution:............ Progress Bar Test 30
-// Project:............. Progress Bar Test 30
-// File:................ Annotations.cs
-// Last Code Cleanup:... 08/25/2020 @ 2:20 PM Using ReSharper
-// Review Comment:...... // ✓✓ 08/25/2020 - Review Comment:
+// Project:............. ProgressBar
+// File:................ CanBeNullAttribute.cs
+// Last Code Cleanup:... 01/18/2021 @ 1:25 PM Using ReSharper
+// Review Comment:...... // ✓✓ 01/18/2021 - Review Comment:
 // ///////////////////////////////////////////////////////////
 
 // ReSharper disable InheritdocConsiderUsage
@@ -20,7 +19,7 @@
 // ReSharper disable MemberCanBeProtected.Global
 // ReSharper disable InconsistentNaming
 
-namespace ProgressBarTest30.Properties
+namespace ProgressBar.Properties
 {
     using System;
 
