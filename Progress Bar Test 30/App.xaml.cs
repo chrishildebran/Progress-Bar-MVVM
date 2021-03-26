@@ -5,7 +5,7 @@
 // Project:............. ProgressBar
 // File:................ App.xaml.cs
 // Last Code Cleanup:... 01/18/2021 @ 1:25 PM Using ReSharper
-// Review Comment:...... // ✓✓ 01/18/2021 - Review Comment:
+// Review Comment:...... // ✓✓ 01/18/2021 - Review Comment: Change to test GIT
 // ///////////////////////////////////////////////////////////
 
 namespace ProgressBar
