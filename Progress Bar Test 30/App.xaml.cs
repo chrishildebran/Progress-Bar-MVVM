@@ -4,8 +4,8 @@
 // Solution:............ Progress Bar Test 30
 // Project:............. ProgressBar
 // File:................ App.xaml.cs
-// Last Code Cleanup:... 01/18/2021 @ 1:25 PM Using ReSharper
-// Review Comment:...... // ✓✓ 01/18/2021 - Review Comment: Change to test GIT
+// Last Code Cleanup:... 03/26/2021 @ 6:53 AM Using ReSharper
+// Review Comment:...... // ✓✓ 03/26/2021 - Review Comment:
 // ///////////////////////////////////////////////////////////
 
 namespace ProgressBar
@@ -17,5 +17,10 @@ namespace ProgressBar
     /// </summary>
     public partial class App : Application
     {
+        #region Properties (Non-Private)
+
+        public string Property1 { get; set; }
+
+        #endregion
     }
 }
