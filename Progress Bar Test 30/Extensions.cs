@@ -10,26 +10,26 @@
 
 namespace ProgressBar
 {
-    using System;
-    using System.ServiceModel.Dispatcher;
-    using System.Threading.Tasks;
+	  using System;
+	  using System.ServiceModel.Dispatcher;
+	  using System.Threading.Tasks;
 
-    public static class Extensions
-    {
-        #region Methods (Non-Private)
+	  public static class Extensions
+	  {
+		    #region Methods (Non-Private)
 
-        public static async void FireAndForgetSafeAsync(this Task task, IErrorHandler handler = null)
-        {
-            try
-            {
-                await task;
-            }
-            catch (Exception ex)
-            {
-                handler?.HandleError(ex);
-            }
-        }
+		    public static async void FireAndForgetSafeAsync(this Task task, IErrorHandler handler = null)
+		    {
+				try
+				{
+					  await task;
+				}
+				catch (Exception ex)
+				{
+					  handler?.HandleError(ex);
+				}
+		    }
 
-        #endregion
-    }
+		    #endregion
+	  }
 }
